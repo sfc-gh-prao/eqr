@@ -90,10 +90,10 @@ You'll be working in the **`EQR_LAB`** database, organized across four schemas:
 ## How to Use Cortex Code in Snowsight
 
 1. You're already logged into your demo account from Module 0
-2. In the left nav click **Projects → Worksheets**
-3. Click **+ New** → **Cortex Code**
-4. The screen splits: **chat panel on the left**, **worksheet/output on the right**
-5. Type your prompt in the chat box at the bottom and press **Enter**
+2. You should already be in the EQR HOL workspace you created in Module 0
+3. In the workspace, click **+Add New** and select **SQL File**. Name it **modules.sql** -- this will be the file where you Cortex Code generated SQL will appear
+4. Open Cortex Code if it's not already open from Module 0. It is a blue star icon on the right side of the screen.
+5. The following modules will walk through example prompts for you to run in your environment
 
 **Power-user tip:** Type `#EQR_LAB.PROPERTIES.BUILDINGS` in a prompt to auto-inject the table's schema and sample rows as context. Cortex Code will write smarter queries when it knows your table structure.
 
