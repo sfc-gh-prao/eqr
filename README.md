@@ -22,10 +22,10 @@
 2. Click **+ Create workspace +** at the top left → **Git workspace**
 3. Enter the repository URL: https://github.com/sfc-gh-prao/eqr
 4. Enter workspace name: EQR HOL
-5. Click **+ API Integration**
-a. Name: **eqr_hol**
-b. Allowed Prefixes: **https://github.com/sfc-gh-prao/eqr**
-c. Leave the default selections for the remaining options and click **Create**
+5. Click **+ API Integration**  
+   Name: **eqr_hol**  
+   Allowed Prefixes: **https://github.com/sfc-gh-prao/eqr**  
+   Leave the default selections for the remaining options and click **Create**  
 7. When you return to the create workspace menu, select **Public repository** and click **Create**
 
 > **Why ACCOUNTADMIN?** The setup script creates a database, a warehouse, and several schemas. This requires account-level privileges. You'll switch to a less-privileged role for the rest of the lab.
