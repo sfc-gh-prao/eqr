@@ -216,7 +216,6 @@ In the RENT_PAYMENTS table, find any payments where the payment_date is more tha
 
 ### Step 3.3 — Build the Data Quality Streamlit App
 
-> **Note:** Use the prompt below exactly as written — it has been tested to work in Streamlit in Snowflake without errors.
 
 Now watch how fast we can turn this audit into a live app:
 
@@ -230,9 +229,23 @@ Show:
 - A bar chart of null count by table name
 - A button labeled "Refresh" that reruns the app
 
-Deploy as a Streamlit in Snowflake app.
+Just build out the python file. Do not deploy it.
 ```
 
+
+Once the python file has been generated, do the following:
+1. Copy all the code in the python file in your workspace
+2. Go to **Projects** -> **Streamlit**
+3. Click on **+ Streamlit App**
+4. For the App title, enter **EQR_DATA_QUALITY**
+5. For the App location, select EQR_LAB for the database and PUBLIC for the schema
+6. Select **Run on container** for the runtime
+7. Select the EQR_HOL_WH for the query warehouse
+8. When the app is first created, you will see a template with some python code. Overwrite it with the code you copied from your workspace.
+9. Click **Run** at the top
+
+> **Note:** You may see an error when running the Streamlit application. With the application open, use Cortex Code on the right to troubleshoot. Start the prompt with "There's an error in the app:" and paste the error. You will be given an option to copy and paste the entire code
+   
 > **What just happened?** You went from discovering data quality problems to having a live, branded dashboard that your entire organization can access — in under 5 minutes. No front-end development, no deployment pipeline, no infrastructure to manage.
 
 
