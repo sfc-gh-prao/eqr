@@ -551,7 +551,6 @@ Based on current occupancy and average monthly rents by state, project total mon
 
 - [ ] Request Cortex Code access for your team in your Snowflake account
 - [ ] Identify 3 manual reporting processes that could be self-served with this approach
-- [ ] Book a follow-up session with your Snowflake SE to scope the migration from Databricks/SQL Server/BigQuery into Snowflake
 - [ ] Share the Data Quality Dashboard with your data governance stakeholders
 
 ---
