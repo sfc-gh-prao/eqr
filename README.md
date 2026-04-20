@@ -32,11 +32,10 @@
 
 ### Step 0.3 — Run the Setup Script
 
-1. Your instructor will share a link or paste the contents of **`setup.sql`** into the chat
-2. Copy the entire script and paste it into your SQL worksheet
-3. Click **Run All** (▶▶ button, or `Cmd+Shift+Enter` / `Ctrl+Shift+Enter`)
-4. Watch the progress — each section runs sequentially. You'll see output for each INSERT statement
-5. The final step outputs a row-count summary table — **wait until you see this before moving on**
+1. If you were able to successfully create a Git workspace, you will see a **setup.sql** file appear
+4. Click **Run All** (▶▶ button, or `Cmd+Shift+Enter` / `Ctrl+Shift+Enter`)
+5. Watch the progress — each section runs sequentially. You'll see output for each INSERT statement
+6. The final step outputs a row-count summary table — **wait until you see this before moving on**
 
 > **Expected output** at the end:
 > ```
