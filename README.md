@@ -1,9 +1,9 @@
 # Equity Residential × Snowflake - EQR IT Huddle
 ## Cortex Code: Hands-On Lab — Snowsight UI Edition
 
-**Duration:** 100 minutes (5 min setup + 95 min lab, includes discussion breaks)
-**Format:** Self-paced with guided checkpoints
-**Environment:** Your own Snowflake demo account — Snowsight (no local install required)
+**Duration:** 100 minutes (5 min setup + 95 min lab, includes discussion breaks)  
+**Format:** Self-paced with guided checkpoints  
+**Environment:** Your own Snowflake demo account — Snowsight (no local install required)  
 
 ---
 
