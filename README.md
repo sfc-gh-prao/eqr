@@ -16,12 +16,17 @@
 1. Open your browser and go to your Snowflake demo account URL (provided by your instructor)
 2. Sign in with the credentials on your handout
 
-### Step 0.2 — Open a SQL Worksheet
+### Step 0.2 — Create a new workspace
 
-1. In the left nav, click **Projects → Worksheets**
-2. Click **+ New** → **SQL Worksheet**
-3. In the top-right role selector, confirm you are using **`ACCOUNTADMIN`**
-   - If not, click the role name and switch to `ACCOUNTADMIN`
+1. In the left nav, click **Projects → Workspaces**
+2. Click **+ Create workspace +** at the top left → **Git workspace**
+3. Enter the repository URL: https://github.com/sfc-gh-prao/eqr
+4. Enter workspace name: EQR HOL
+5. Click ** + API Integration**
+   Name: eqr_hol
+   Allowed Prefixes: https://github.com/sfc-gh-prao/eqr
+   Leave the default selections for the remaining options and click ** Create **
+6. When you return to the create workspace menu, select **Public repository** and click **Create**
 
 > **Why ACCOUNTADMIN?** The setup script creates a database, a warehouse, and several schemas. This requires account-level privileges. You'll switch to a less-privileged role for the rest of the lab.
 
