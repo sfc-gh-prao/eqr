@@ -13,8 +13,11 @@
 
 ### Step 0.1 — Log In
 
-1. Open your browser and go to your Snowflake demo account URL (provided by your instructor)
-2. Sign in with the credentials on your handout
+1. Open your browser and go to https://go.dataops.live/eqr-it-tech-huddle/instructions
+2. Register for a demo account using your email address
+3. Bookmark the URL provided at the end of the registration process. This will be the account you will be using for the lab.
+4. Disregard the "Lab Instructions" link provided at the end of the registration. This README.md will be your lab guide
+5. Sign into your Snowflake demo account with the credentials you were provided
 
 ### Step 0.2 — Create a new workspace
 
