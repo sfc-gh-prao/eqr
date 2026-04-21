@@ -305,8 +305,15 @@ Are there any users in the QUERY_LOG who are consistently running inefficient qu
 
 Pick the app that resonates with your work. Use the prompt exactly as written, then try the enhancement prompts once it's running.
 
-> **Note:** These prompts have been tested to work in Streamlit in Snowflake. Use them as written for the best chance of a clean first run.
-
+RUN the prompt for one of the options below first. Once the python file has been generated, do the following:
+1. Copy all the code in the python file in your workspace
+2. Go to **Projects** -> **Streamlit**
+3. Click on **+ Streamlit App**
+4. For the App title, enter any app name. For example, **EQR_PORTFOLIO_DASHBOARD**
+5. For the App location, select EQR_LAB for the database and PUBLIC for the schema
+6. Select **Run on container** for the runtime
+7. Select the EQR_HOL_WH for the query warehouse
+8. When the app is first created, you will see a template with some python code. Overwrite it with the code you copied from your workspace.
 ---
 
 ### Option A — For Platform Engineers & DBAs
@@ -320,7 +327,7 @@ Show:
 - A bar chart showing how many queries each user has run — show the top 10 users by query count
 - A table of the 10 queries with the highest bytes_scanned — show user_name, warehouse_name, bytes_scanned, execution_status, and the first 60 characters of query_text
 
-Deploy as a Streamlit in Snowflake app.
+Just build out the python file. Do not deploy it.
 ```
 
 ---
@@ -337,7 +344,7 @@ Show:
 - A table of the 20 most recent rows in ACCESS_LOGS where result is 'Failed' or 'Denied' — show building_id, username, access_point, result, and event_timestamp
 - A table of all users from USER_PERMISSIONS where is_active is false — show username, department, role_name, and last_login
 
-Deploy as a Streamlit in Snowflake app.
+Just build out the python file. Do not deploy it.
 ```
 
 ---
@@ -354,7 +361,7 @@ Show:
 - A table of the top 10 buildings by total unit count — include building name, city, state, property type, and total units
 - A table of the 10 buildings with the most open maintenance requests — include building name, city, state, and open request count
 
-Deploy as a Streamlit in Snowflake app.
+Just build out the python file. Do not deploy it.
 ```
 
 ---
@@ -371,7 +378,7 @@ Show:
 - A bar chart of row count by table name
 - A table showing the 15 most recent rows from EQR_LAB.IT_INFRASTRUCTURE.QUERY_LOG — show user_name, warehouse_name, execution_seconds, and execution_status
 
-Deploy as a Streamlit in Snowflake app.
+Just build out the python file. Do not deploy it.
 ```
 
 ---
