@@ -31,6 +31,8 @@
    Leave the default selections for the remaining options and click **Create**  
 7. When you return to the create workspace menu, select **Public repository** and click **Create**
 
+At the bottom left hand corner, ensure you see "ACCOUNTADMIN" selected. This will be important for the setup script we'll be running in the next step.
+
 > **Why ACCOUNTADMIN?** The setup script creates a database, a warehouse, and several schemas. This requires account-level privileges. You'll switch to a less-privileged role for the rest of the lab.
 
 ### Step 0.3 — Run the Setup Script
