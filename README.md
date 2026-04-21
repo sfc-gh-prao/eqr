@@ -26,7 +26,7 @@
 3. Enter the repository URL: https://github.com/sfc-gh-prao/eqr
 4. Enter workspace name: EQR HOL
 5. Click **+ API Integration**  
-   Name: **eqr_hol**  
+   Name: **EQR_HOL**  
    Allowed Prefixes: **https://github.com/sfc-gh-prao/eqr**  
    Leave the default selections for the remaining options and click **Create**  
 7. When you return to the create workspace menu, select **Public repository** and click **Create**
